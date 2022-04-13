@@ -1,0 +1,17 @@
+@startuml
+
+entity Thread
+
+Thread : number user_code
+Thread : string order_id
+Thread : string body
+Thread : string topic
+Thread : number to
+Thread : any files
+Thread : string file_name
+
+Thread : findByOrder()
+Thread : findByThread()
+Thread : create()
+
+@enduml

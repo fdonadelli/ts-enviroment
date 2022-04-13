@@ -1,0 +1,8 @@
+@startuml
+
+:Client: -> (Create thread)
+:Client: -> (Get threads or thread )
+:Client: -> (Get thread by order_id)
+
+
+@enduml
